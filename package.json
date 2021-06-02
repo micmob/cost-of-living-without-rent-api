@@ -1,0 +1,20 @@
+{
+    "name": "numbeocostoflivingwithoutrentapi",
+    "version": "1.0.0",
+    "description": "Unofficial Numbeo cost of living without rent API",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "*",
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
